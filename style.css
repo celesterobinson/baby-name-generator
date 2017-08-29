@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(http://fonts.gstatic.com/s/raleway/v11/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+    font-size: 2em;
+    padding-top: 125px;
+    margin: 0 50px 0 50px;
+    font-family:'Raleway';
+    background-color: #626a74;
+    border-right: groove 4px black;
+    border-left: groove 4px black;
+    height: 20.3em;
+    overflow: hidden;
+}
+
+h1, h2, form {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+    font-family: 'Handlee', cursive;
+    color: white;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    outline: none;
+}
+
+#last-name {
+    outline: none;
+    height: 15px;
+    position: relative;
+    bottom: 8px;
+}

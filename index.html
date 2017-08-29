@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Baby Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Indie+Flower|" rel="stylesheet">
+</head>
+<body>
+    <h1>Baby Name Generator</h1>
+    <form>
+        <label>What is your last name? 
+            <input id="last-name" type="text" name="lastname" placeholder="Enter Here" value="">
+        </label>
+        <br>
+        <label>Boy name? 
+            <input onclick="changeBackground('#4dbae1')" id="boy" type="radio" name="gender" value="">
+        </label>
+        <label>Girl name?
+            <input onclick="changeBackground('#e583b9')" id="girl" type="radio" name="gender" value="">
+        </label>    
+        <br>
+        <input onclick="generateName(); return false;"  type="submit" value="Generate Name">
+    </form>
+    <h2 id="baby-name"></h2>
+    <script src="girls.js"></script>
+    <script src="boys.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
