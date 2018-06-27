@@ -14,7 +14,7 @@ body {
     background-color: #626a74;
     border-right: groove 4px black;
     border-left: groove 4px black;
-    height: 20.3em;
+    height: 100%;
     overflow: hidden;
 }
 
